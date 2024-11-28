@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="jquery-3.7.1.min.js"></script>
+  <script type="text/javascript" src="scancode.js?v=1"></script>
+  <script type="text/javascript" src="jsQR.js"></script>
+</head>
+<body>
+<div class="">
+  <button id="search_scans">点击扫码</button>
+  <input type="text" id="assetTableSearch">  //扫码内容复现到此input上
+</div>
+</body>
+<script>
+    $(function (){
+        scancode({btn:$('#search_scans'),input:$('#assetTableSearch')})
+    })
+</script>
+</html>

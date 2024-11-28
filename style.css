@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.invitation-container {
+    background: url('car-background.jpg') no-repeat center center;
+    background-size: cover;
+    width: 600px;
+    height: 800px;
+    border-radius: 15px;
+    color: white;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.invitation-header {
+    margin-bottom: 30px;
+}
+
+.car-logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.invitation-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.event-details {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.event-details div {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.rsvp-button a {
+    display: inline-block;
+    background-color: #e60012;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.rsvp-button a:hover {
+    background-color: #c5000e;
+}
